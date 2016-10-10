@@ -3,7 +3,7 @@ package com.demo.limits.core.config;
 import org.springframework.context.annotation.*;
 
 /**
- * Created by Vishnu on 11-08-2014.
+ * Created by lnv.
  */
 @Configuration
 @PropertySources({

@@ -1,0 +1,19 @@
+#Database Configuration
+db.driver=oracle.jdbc.driver.OracleDriver
+db.username=sa
+db.password=
+db.url=jdbc:oracle:thin:@localhost:1521:orcl
+
+#Hibernate Configuration
+hibernate.dialect=org.hibernate.dialect.Oracle10gDialect
+hibernate.format_sql=true
+hibernate.ejb.naming_strategy=org.hibernate.cfg.ImprovedNamingStrategy
+hibernate.show_sql=true
+entitymanager.packages.to.scan=com.marketshare.rubix.domain
+generate.ddl=true
+
+#MessageSource
+message.source.basename=i18n/messages
+message.source.use.code.as.default.message=true
+
+swagger.docs = http://localhost:8080

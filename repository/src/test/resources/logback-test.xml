@@ -1,0 +1,24 @@
+<configuration scan="true" scanPeriod="30 seconds">
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+    <logger name="org.springframework" level="ERROR"/>
+    <logger name="org.springframework.data" level="ERROR"/>
+    <logger name="org.springframework.orm.jpa" level="ERROR"/>
+    <logger name="org.springframework.transaction" level="ERROR"/>
+    <logger name="org.springframework.transaction.interceptor" level="TRACE"/>
+    <logger name="org.hibernate" level="ERROR"/>
+    <logger name="org.hibernate.tool" level="ERROR"/>
+    <logger name="com.marketshare" level="ERROR"/>
+
+</configuration>

@@ -30,8 +30,8 @@ public class ValidationTest extends AbstractTestNGSpringContextTests {
 
         //Validate id is null
         bean.setId(1l);
-        bean.setName("Rajesh");
-        bean.setDescription("Gupta");
+        bean.setName("lnv");
+        bean.setDescription("lnv");
 
         try{
             validationService.create(bean);

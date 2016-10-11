@@ -21,7 +21,7 @@
     <logger name="org.springframework.transaction.interceptor" level="TRACE"/>
     <logger name="org.hibernate" level="ERROR"/>
     <logger name="org.hibernate.tool" level="ERROR"/>
-    <logger name="com.marketshare" level="ERROR"/>
+    <logger name="com.demo" level="ERROR"/>
 
     <root level="warn">
         <appender-ref ref="console" />

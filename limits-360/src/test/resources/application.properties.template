@@ -9,7 +9,7 @@ hibernate.dialect=org.hibernate.dialect.Oracle10gDialect
 hibernate.format_sql=true
 hibernate.ejb.naming_strategy=org.hibernate.cfg.ImprovedNamingStrategy
 hibernate.show_sql=true
-entitymanager.packages.to.scan=com.marketshare.rubix.domain
+entitymanager.packages.to.scan=com.demo.limits.domain
 generate.ddl=true
 
 #MessageSource
